@@ -18,24 +18,15 @@
     font-family: "Montserrat Bold";
     src: url(../fonts/Montserrat-Bold.ttf);
 }
-.container {
+.container12 {
     width: 1200px;
     margin: 0 auto;
 }
-html,
-body {
-    height: 100%;
-    width: 100%;
+.container16 {
+    width: 1600px;
+    margin: 0 auto;
 }
-body {
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-}
-body header {
-    width: 100%;
-    float: left;
-}
+
 body header .headerInside .logoAndContacts {
     display: grid;
     grid-gap: 20px;
@@ -125,19 +116,16 @@ body header .headerInside .navAndSocials .socials a:last-child {
 }
 
 body .medicalCarePlan {
-    width: 1600px;
-    height: 640px;
+    height: 240px;
     margin: 0 auto;
     float: left;
     outline: 1px solid #6c6c6c;
 }
 
 body .benefits {
-    width: 1600px;
+    height: 240px;
     margin: 0 auto;
     float: left;
-    margin-left: -20px;
-    margin-right: -20px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#43b1d2+0,37c3a8+100 */
     background: #43b1d2;
     /* Old browsers */
@@ -149,48 +137,4 @@ body .benefits {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#43b1d2', endColorstr='#37c3a8', GradientType=1);
     /* IE6-9 */
-}
-body .benefits .benefitsInside {
-    width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(150px, 1fr));
-}
-body .benefits .benefitsInside .benefitUnit {
-    padding: 60px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-body .benefits .benefitsInside .benefitUnit .benefitIcon {
-    width: 75px;
-    height: 75px;
-    background-size: contain;
-}
-body .benefits .benefitsInside .benefitUnit .bestTreatment {
-    background: url(../img/bestTreatment.png) no-repeat center center;
-}
-body .benefits .benefitsInside .benefitUnit .emergencyHelp {
-    background: url(../img/emergencyHelp.png) no-repeat center center;
-}
-body .benefits .benefitsInside .benefitUnit .medicalStaff {
-    background: url(../img/medicalStuff.png) no-repeat center center;
-}
-body .benefits .benefitsInside .benefitUnit .qualifiedDoctors {
-    background: url(../img/qualifiedDoctors.png) no-repeat center center;
-}
-body .benefits .benefitsInside .benefitUnit .benefitUnitHead {
-    font-family: "Montserrat Bold", sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-    margin: 30px 0;
-}
-body .benefits .benefitsInside .benefitUnit .benefitUnitDesc {
-    font-size: 14px;
-    font-family: "Open Sans Regular", sans-serif;
-    text-align: center;
-    color: #ffffff;
 }

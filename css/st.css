@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.block1 {
+    width: 1600px;
+    height: 200px;
+    outline: 1px solid #6c6c6c;
+    float: left;
+}
+.block2 {
+    width: 1200px;
+    height: 200px;
+    margin-left: 200px;
+    outline: 1px solid #6c6c6c;
+    float: left;
+}
+.block3 {
+    width: 900px;
+    height: 200px;
+    margin-left: 150px;
+    outline: 1px solid #6c6c6c;
+    float: left;
+}
+.block4 {
+    width: 1200px;
+    height: 200px;
+    outline: 1px solid #6c6c6c;
+    float: left;
+}
